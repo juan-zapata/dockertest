@@ -11,7 +11,7 @@ ADD package.json package-lock.json  /dockertest/
 RUN npm install
 
 #COPIAR EL CODIGO
-ADD . /dockertest/
+ADD . /dockertest
 
 #EXPOSE
 EXPOSE 5000
